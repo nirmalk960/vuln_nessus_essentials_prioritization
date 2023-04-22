@@ -4,7 +4,7 @@ Vulnerability Prioritization of Nessus Essentials Scan report CSV using CISA Kno
 Introduction
 ---------------------
 
-Vulnerability Prioritization is very much important and it eliminates a lot of time to fix what. It's always highly recommended to use standard reference to determine which vulnerabilities needs to be fixed prefererably. Here We have leveraged CISA known Vulnerability List to do look up against the Nessus Essential Scan report (Csv Format) to develop a dashboard based on Simple Python Dash Table.
+Vulnerability Prioritization is very much important and it eliminates a lot of time to fix what. It's always highly recommended to use standard reference to determine which vulnerabilities needs to be fixed prefererably. Here We have leveraged CISA known Vulnerability (https://www.cisa.gov/known-exploited-vulnerabilities-catalog) List to do look up against the Nessus Essential Scan report (Csv Format) to develop a dashboard based on Simple Python Dash Table.
 
 Steps Execution
 ------------------------------
