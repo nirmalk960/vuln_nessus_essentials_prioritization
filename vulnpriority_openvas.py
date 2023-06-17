@@ -29,8 +29,7 @@ vuln_res = pd.concat([pd.read_csv(f) for f in file_list])
 vuln_res_df = vuln_res[vuln_res['CVEs'] != 'NOCVE']
 cisa_kv_report = vuln_res_df[vuln_res_df['CVEs'].isin(cisa_kv_list)]
 
-vuln_res_df = vuln_res_df.assign(values=vuln_res_df['CVEs'].str.split(','))
-vuln_res_df_final = vuln_res_df.explode('CVEs', ignore_index=True)
+vuln_res_df_final = vuln_res_df
 
 
 def epss(CVE):
