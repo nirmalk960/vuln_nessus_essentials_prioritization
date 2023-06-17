@@ -50,7 +50,7 @@ app.config['suppress_callback_exceptions'] = True
 
 app.layout = html.Div(children=[
     html.Div([
-        html.H1('Vulnerability Prioritization using CISA Known vulnerabilities and Exploit DB for Nessus Essentials Scan Results', style={'textAlign': 'center'})
+        html.H1('Vulnerability Prioritization using CISA Known vulnerabilities and EPSS Score for Nessus Essentials Scan Results', style={'textAlign': 'center'})
     ]),
     html.Div([
         html.H4('Vulnerabilities to be Fixed on Priority Based on CISA Known Vulnerabilties',style={'textAlign': 'center'}),
